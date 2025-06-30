@@ -1,31 +1,10 @@
-Projeto: CRUD de Usuários em Python
+Este é um projeto simples de CRUD de usuários utilizando apenas Python, sem o uso de frameworks ou banco de dados. O sistema permite criar, listar, editar e excluir usuários, com os dados sendo armazenados apenas em memória.
+Para criar um novo usuário, o usuário deve selecionar a opção "Criar usuário" no menu principal. Em seguida, serão solicitadas as informações de nome, email e cidade. Após o preenchimento, o sistema gera um ID e adiciona o novo usuário à lista.
 
-Este é um projeto simples que permite criar, listar, editar e excluir usuários utilizando apenas Python, sem banco de dados ou frameworks.
+- A opção "Listar usuários" permite visualizar todos os usuários cadastrados. O programa exibe uma lista contendo o ID, nome, email e cidade de cada usuário.
 
-Como funciona:
+- Na opção "Editar usuário", o usuário deve informar o ID correspondente ao registro que deseja modificar. É possível atualizar os dados inserindo novas informações ou simplesmente pressionar a tecla "Enter"  para manter os dados atuais.
 
-1. Criar usuário:
-   - Escolha a opção "Criar usuário" no menu.
-   - Informe o nome, email e cidade do usuário.
-   - O usuário será adicionado à lista em memória com um ID.
+- Já a opção "Excluir usuário" permite remover um usuário da lista. Para isso, basta informar o ID do usuário que deseja excluir, e o sistema fará a remoção do cadastro.
 
-2. Listar usuários:
-   - Escolha a opção "Listar usuários" no menu.
-   - Serão exibidos todos os usuários cadastrados com seus respectivos IDs, nomes, emails e cidades.
-
-3. Editar usuário:
-   - Escolha a opção "Editar usuário" no menu.
-   - Informe o ID do usuário que deseja modificar.
-   - Informe os novos dados ou pressione Enter para manter os dados atuais.
-
-4. Excluir usuário:
-   - Escolha a opção "Excluir usuário" no menu.
-   - Informe o ID do usuário que deseja excluir.
-   - O usuário será removido da lista.
-
-Observação:
-Os dados são armazenados apenas em memória, então ao fechar o programa todas as informações são perdidas.
-
-Obrigado por usar este projeto!
-
-Feito por Lucas Basilio com fins educacionais.
+Este projeto foi desenvolvido por Lucas Basilio com fins educacionais, utilizando apenas a linguagem Python.
